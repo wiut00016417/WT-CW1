@@ -21,12 +21,12 @@ div.first {
     background-color: white;
 }
 
-.first p {
+.first a {
     font-size: 1.4rem;
     font-weight: bold;
 }
 
-.first p {
+.first a {
     margin-left: 8%;
 }
 
@@ -49,6 +49,8 @@ a.sign_up {
     background-color: rgb(245, 245, 245);
     border-radius: 5px;
     color: black;
+    font-size: large;
+    font-weight: normal;
     padding: 10px;
 }
 
@@ -77,12 +79,18 @@ nav {
 
 .layer ul {
     margin: 20px 30px;
+    display: none;
+    
 }
 .layer ul li a {
     display: block;
     width: 50%;
     padding: 15px 25px;
     background-color: #fff;
+}
+
+.layer ul li a:hover {
+    background-color: aliceblue;
 }
 
 section.start p {
