@@ -1,6 +1,126 @@
+:root {
+    --link-gray: rgb(82, 82, 82)
+}
+
 * {
     padding: 0;
     margin: 0;
     list-style-type: none;
     text-decoration: none;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,Liberation Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f8f9fa;
+}
+
+div.first {
+    display: flex;
+    align-items: center;
+    background-color: white;
+}
+
+.first p {
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.first p {
+    margin-left: 8%;
+}
+
+.first input{
+    border: 1px solid rgb(192, 190, 190);
+    border-radius: 6px;
+    padding: 12px;
+    width: 35%;
+}
+
+input:focus {
+    border-color: red;
+}
+
+.first > * {
+    margin: 10px;
+}
+
+a.sign_up {
+    background-color: rgb(245, 245, 245);
+    border-radius: 5px;
+    color: black;
+    padding: 10px;
+}
+
+div.second ul {
+    display: flex;
+    align-items: center;
+    padding: 12px 0;
+    padding-left: 8%;
+    background-color: #fff;
+}
+
+.second ul li a{
+    display: inline-block;
+    padding:  6px 35px;
+    padding-top: 0;
+    color: var(--link-gray);
+}
+
+.second ul li a:first-child{
+    padding-left: 0;
+}
+
+nav {
+    border-bottom: 1px solid lightgray;
+}
+
+.layer ul {
+    margin: 20px 30px;
+}
+.layer ul li a {
+    display: block;
+    width: 50%;
+    padding: 15px 25px;
+    background-color: #fff;
+}
+
+section.start p {
+    width: 87%;
+    background-color: white;
+    margin: 10px auto;
+    display: block;
+    padding: 25px;
+    border: 1px solid lightgray;
+}
+
+.start img {
+    vertical-align: middle;
+    margin-left: 8px;
+}
+
+.categories {
+    width: 87%;
+    margin: 15px auto;
+    border: 1px solid lightgray;
+    background-color: white;
+}
+
+.categories p.head {
+    font-size: 1.6rem;
+    margin: 20px 25px;
+}
+
+.links ul {
+    columns: 3;
+}
+
+.links ul li a {
+    display: inline-block;
+    margin: 18px 25px;
+    color: var(--link-gray);
+}
+
+.links ul li a:first-child {
+    margin-top: 0;
 }
