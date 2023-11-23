@@ -2,10 +2,11 @@
     --link-gray: rgb(82, 82, 82);
     --border-gray: 1px solid lightgray;
 }
-
+  
 a {
     color: #007bff;
 }
+
 * {
     padding: 0;
     margin: 0;
@@ -488,4 +489,52 @@ input[type="radio"], input[type="checkbox"] {
 
 footer ul li:nth-child(3) a {
     color: lightgreen;
+}
+
+@media (max-width: 768px) {
+    .container {
+      padding: 10px;
+    }
+  
+    ul, .first, .second {
+        flex-wrap: wrap;
+    }
+
+    .first > button{
+        margin-left: 40px;
+    }
+
+    .first input {
+        width: 200px;
+        display: block;
+    }
+
+    footer > ul, .sorting ul {
+        flex-direction: column;
+        align-items: center;
+    }
+  
+    li {
+      display: block;
+      margin-bottom: 10px;
+    }
+
+    .phoneslist > div > * {
+        flex-direction: column;
+    }
+
+    .links > ul {
+        columns: 1;
+    }
+
+    .lang {
+        position: relative;
+        left: 15px;
+    }
+
+    .container, .container > * {
+        flex-direction: column;
+        width: 80vw;
+    }
+
 }
