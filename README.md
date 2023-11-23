@@ -1,2 +1,4 @@
 # WT-CW1
-Web Technology CW1 Project
+Web Technology CW1 Project.
+    This projects check learning outcomes related to Web-development technologies. It requires to craft website from the model available at any local company's website using our skills in Frontend development gained during the semester 1 from Web Technology module. It is suggested that we use html as a markup language, CSS for styling the webpages and JavaScript coding language to make the website dynamic and interactive. 
+    In order to succeed in this coursework, I decided to build a website for a local marketplace called "Kattabozor". The reason behind selecting this website was its simple and modest design and abundant dynamic pages. I supposed that this type of website will not be too much difficult to build, however it was a bit more challenging than was initially perceived by me. Even if the website didn't have a plenty amount of visual effect, I had to use complex nested elements with CSS FlexBox items in order to properly justify and align them. In my mind, the most challenging part of the process was planning to develop this website, because it had a plethora of items with 

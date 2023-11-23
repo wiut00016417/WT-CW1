@@ -1,5 +1,6 @@
 :root {
-    --link-gray: rgb(82, 82, 82)
+    --link-gray: rgb(82, 82, 82);
+    --border-gray: 1px solid lightgray;
 }
 
 a {
@@ -75,7 +76,7 @@ div.first {
 }
 
 .first input{
-    border: 1px solid rgb(192, 190, 190);
+    border: var(--border-gray);
     border-radius: 6px;
     padding: 12px;
     width: 35%;
@@ -118,7 +119,7 @@ div.second ul {
 }
 
 nav {
-    border-bottom: 1px solid lightgray;
+    border-bottom: var(--border-gray);
 }
 
 .layer ul {
@@ -143,7 +144,7 @@ section.start p {
     margin: 10px auto;
     display: block;
     padding: 25px;
-    border: 1px solid lightgray;
+    border: var(--border-gray);
 }
 
 .start img {
@@ -154,7 +155,7 @@ section.start p {
 .categories {
     width: 87%;
     margin: 15px auto;
-    border: 1px solid lightgray;
+    border: var(--border-gray);
     background-color: white;
 }
 
@@ -185,7 +186,7 @@ section.start p {
     min-height: 400px;
     width: 87%;
     margin: 15px auto;
-    border: 1px solid lightgray;
+    border: var(--border-gray);
     background-color: white;
 }
 
@@ -234,3 +235,42 @@ footer ul {
     width: 87%;
     margin: 20px auto;
 }
+
+.vacancies {
+    width: 87%;
+    background-color: #fff;
+    border: var(--border-gray);
+    margin: 25px auto;
+}
+
+.vacancies h2 {
+    padding: 20px;
+}
+
+.flexjobs {
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.cards {
+    padding-bottom: 20px;
+}
+
+.cards img {
+    height: 300px;
+    width: 300px;
+}
+
+.cards ul {
+    list-style-type: disc;
+    padding-left: 40px;
+}
+
+.jobdesc {
+    border: var(--border-gray);
+    padding: 10px;
+    max-width: 300px;
+}
+
