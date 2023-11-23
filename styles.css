@@ -481,3 +481,11 @@ input[type="number"]::-webkit-outer-spin-button {
 input[type="radio"], input[type="checkbox"] {
     margin: 8px;
 }
+
+.telegram img {
+    border-radius: 50%;
+}
+
+footer ul li:nth-child(3) a {
+    color: lightgreen;
+}
