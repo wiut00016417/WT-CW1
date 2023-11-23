@@ -321,16 +321,22 @@ footer ul {
 
 .products .sorting {
     display: flex;
+    padding: 25px;
 }
 
-.sorting, .phoneslist {
-    width: 60%;
+.container {
+    width: 87%;
+    margin: 25px auto;
+}
+
+.products {
     background-color: white;
     border: var(--border-gray);
-    margin: 25px auto;
-    margin-left: 6.5%;
+    margin-right: 40px;
+}
+
+.sorting {
     border-bottom: var(--border-gray);
-    padding: 20px;
 }
 
 .phoneslist {
@@ -411,4 +417,67 @@ footer ul {
 .phoneslist img:hover {
     transform: scale(2.5);
     box-shadow: 3px 6px 150px black;
+}
+
+.sorting button {
+    background-color: #fff;
+    border: none;
+    font-size: 1rem;
+    color: #007bff;
+}
+
+.sorting button:active {
+    color: black;
+}
+
+.container {
+    display: flex;
+}
+
+.products {
+    flex: 3;
+}
+
+.sidebar {
+    border: var(--border-gray);
+    background-color: #fff;
+    padding: 30px;
+}
+
+.filter input {
+    padding: 8px;
+    margin: 10px;
+    border: var(--border-gray);
+    border-radius: 5px;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+}
+
+.sidebar > div {
+    margin-bottom: 50px;
+}
+
+.sidebar button {
+    padding: 6px;
+    border: 1px solid #0062ca;
+    margin-left: 35px;
+    margin-top: 8px;
+    color: #0062ca;
+    background-color: #fff;
+    border-radius: 3px;
+}
+
+.salescheck > * {
+    margin-right: 7px;
+}
+
+.sidebar h3 {
+    margin-bottom: 5px;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    margin: 8px;
 }

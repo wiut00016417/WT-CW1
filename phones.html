@@ -33,7 +33,7 @@
             </div>
             <div class="second">
                 <ul>
-                    <li><a href="">Телефоны</a></li>
+                    <li><a href="phones.html">Телефоны</a></li>
                     <li><a href="">Планшеты</a></li>
                     <li><a href="">Телевизоры</a></li>
                     <li><a href="">Ноутбуки</a></li>
@@ -65,162 +65,205 @@
             <p>Мобильные телефоны</p>
             <h3>Смартфоны</h3>
         </div>
-        <div class="products">
-            <div class="sorting">
-                <p>Сортировать:</p>
-                <ul>
-                    <li>по популярности</li>
-                    <li>по убыванию цены</li>
-                    <li>по возрастанию цены</li>
-                </ul>
+        <div class="container">
+            <div class="products">
+                <div class="sorting">
+                    <p>Сортировать:</p>
+                    <ul>
+                        <li>по популярности</li>
+                        <li><button onclick="descending()">по убыванию цены</button></li>
+                        <li><button onclick="ascending()">по возрастанию цены</button></li>
+                    </ul>
+                </div>
+                <div class="phoneslist" id="phones">
+                        <div>
+                            <img src="note12pro.jpg" alt="Redmi Note 12 Pro">
+                            <div class="desc">
+                                <div class="stats">
+                                    <a href="">Xiaomi Redmi Note 12 Pro</a>
+                                    <p>6 / 128 GB</p>
+                                    <p>Light Purple</p>
+                                </div>
+                                <div class="prices">
+                                    <a href="">2890000</a>
+                                    <p>9</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <img src="note11pro.jpg" alt="Redmi Note 11 Pro">
+                            <div class="desc">
+                                <div class="stats">
+                                    <a href="">Xiaomi Redmi Note 11 Pro</a>
+                                    <p>8 / 256 GB</p>
+                                    <p>White</p>
+                                </div>
+                                <div class="prices">
+                                    <a href="">3120000</a>
+                                    <p>15</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <img src="x5pro.jpg" alt="Poco X5 Pro">
+                            <div class="desc">
+                                <div class="stats">
+                                    <a href="">Xiaomi Poco X5 Pro</a>
+                                    <p>8 / 256 GB</p>
+                                    <p>Yellow</p>
+                                </div>
+                                <div class="prices">
+                                    <a href="">3956000</a>
+                                    <p>4</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <img src="12t.jpg" alt="Xiaomi 12T">
+                            <div class="desc">
+                                <div class="stats">
+                                    <a href="">Xiaomi Mi 12T Pro</a>
+                                    <p>8 / 512 GB</p>
+                                    <p>Space Blue</p>
+                                </div>
+                                <div class="prices">
+                                    <a href="">5260000</a>
+                                    <p>75</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <img src="realme.jpg" alt="Realme 11">
+                            <div class="desc">
+                                <div class="stats">
+                                    <a href="">Realme 11 Pro Plus</a>
+                                    <p>8 / 256 GB</p>
+                                    <p>Black</p>
+                                </div>
+                                <div class="prices">
+                                    <a href="">6575000</a>
+                                    <p>13</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <img src="s21.jpg" alt="Galaxy S21">
+                            <div class="desc">
+                                <div class="stats">
+                                    <a href="">Samsung Galaxy S21</a>
+                                    <p>8 / 256 GB</p>
+                                    <p>Dark Green</p>
+                                </div>
+                                <div class="prices">
+                                    <a href="">7120000</a>
+                                    <p>19</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <img src="s23.jpg" alt="Galaxy S23">
+                            <div class="desc">
+                                <div class="stats">
+                                    <a href="">Samsung Galaxy s23</a>
+                                    <p>8 / 256 GB</p>
+                                    <p>Forest Green</p>
+                                </div>
+                                <div class="prices">
+                                    <a href="">7455000</a>
+                                    <p>240</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <img src="iphone.jpg" alt="iPhone 12">
+                            <div class="desc">
+                                <div class="stats">
+                                    <a href="">Apple iPhone 12 Pro Max</a>
+                                    <p>6 / 256 GB</p>
+                                    <p>Space Blue</p>
+                                </div>
+                                <div class="prices">
+                                    <a href="">9600000</a>
+                                    <p>46</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <img src="14promax.png" alt="iPhone 14">
+                            <div class="desc">
+                                <div class="stats">
+                                    <a href="">Apple iPhone 14 Pro Max</a>
+                                    <p>6 / 256 GB</p>
+                                    <p>Purple</p>
+                                </div>
+                                <div class="prices">
+                                    <a href="">12560000</a>
+                                    <p>28</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <img src="23ultra.webp" alt="">
+                            <div class="desc">
+                                <div class="stats">
+                                    <a href="">Samsung Galaxy S23 Ultra</a>
+                                    <p>12 / 1024 GB</p>
+                                    <p>Dark Blue</p>
+                                </div>
+                                <div class="prices">
+                                    <a href="">13420000</a>
+                                    <p>21</p>
+                                </div>
+                            </div>
+                        </div>
+                </div>
             </div>
-            <div class="phoneslist">
-                    <div>
-                        <img src="note12pro.jpg" alt="Redmi Note 12 Pro">
-                        <div class="desc">
-                            <div class="stats">
-                                <a href="">Xiaomi Redmi Note 12 Pro</a>
-                                <p>6 / 128 GB</p>
-                                <p>Light Purple</p>
-                            </div>
-                            <div class="prices">
-                                <a href="">2890000</a>
-                                <p>9</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div>
-                        <img src="note11pro.jpg" alt="Redmi Note 11 Pro">
-                        <div class="desc">
-                            <div class="stats">
-                                <a href="">Xiaomi Redmi Note 11 Pro</a>
-                                <p>8 / 256 GB</p>
-                                <p>White</p>
-                            </div>
-                            <div class="prices">
-                                <a href="">3120000</a>
-                                <p>15</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div>
-                        <img src="x5pro.jpg" alt="Poco X5 Pro">
-                        <div class="desc">
-                            <div class="stats">
-                                <a href="">Xiaomi Poco X5 Pro</a>
-                                <p>8 / 256 GB</p>
-                                <p>Yellow</p>
-                            </div>
-                            <div class="prices">
-                                <a href="">3956000</a>
-                                <p>4</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div>
-                        <img src="12t.jpg" alt="Xiaomi 12T">
-                        <div class="desc">
-                            <div class="stats">
-                                <a href="">Xiaomi Mi 12T Pro</a>
-                                <p>8 / 512 GB</p>
-                                <p>Space Blue</p>
-                            </div>
-                            <div class="prices">
-                                <a href="">5260000</a>
-                                <p>75</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div>
-                        <img src="realme.jpg" alt="Realme 11">
-                        <div class="desc">
-                            <div class="stats">
-                                <a href="">Realme 11 Pro Plus</a>
-                                <p>8 / 256 GB</p>
-                                <p>Black</p>
-                            </div>
-                            <div class="prices">
-                                <a href="">6575000</a>
-                                <p>13</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div>
-                        <img src="s21.jpg" alt="Galaxy S21">
-                        <div class="desc">
-                            <div class="stats">
-                                <a href="">Samsung Galaxy S21</a>
-                                <p>8 / 256 GB</p>
-                                <p>Dark Green</p>
-                            </div>
-                            <div class="prices">
-                                <a href="">7120000</a>
-                                <p>19</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div>
-                        <img src="s23.jpg" alt="Galaxy S23">
-                        <div class="desc">
-                            <div class="stats">
-                                <a href="">Samsung Galaxy s23</a>
-                                <p>8 / 256 GB</p>
-                                <p>Forest Green</p>
-                            </div>
-                            <div class="prices">
-                                <a href="">7455000</a>
-                                <p>240</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div>
-                        <img src="iphone.jpg" alt="iPhone 12">
-                        <div class="desc">
-                            <div class="stats">
-                                <a href="">Apple iPhone 12 Pro Max</a>
-                                <p>6 / 256 GB</p>
-                                <p>Space Blue</p>
-                            </div>
-                            <div class="prices">
-                                <a href="">9600000</a>
-                                <p>46</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div>
-                        <img src="14promax.png" alt="iPhone 14">
-                        <div class="desc">
-                            <div class="stats">
-                                <a href="">Apple iPhone 14 Pro Max</a>
-                                <p>6 / 256 GB</p>
-                                <p>Purple</p>
-                            </div>
-                            <div class="prices">
-                                <a href="">12560000</a>
-                                <p>28</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div>
-                        <img src="23ultra.webp" alt="">
-                        <div class="desc">
-                            <div class="stats">
-                                <a href="">Samsung Galaxy S23 Ultra</a>
-                                <p>12 / 1024 GB</p>
-                                <p>Dark Blue</p>
-                            </div>
-                            <div class="prices">
-                                <a href="">13420000</a>
-                                <p>21</p>
-                            </div>
-                        </div>
-                    </div>
-            </div>
-        </div>
-        <div class="sidebar">
-            <div class="filterprice">
-                <h3>Цена, сум</h3>
-                <input type="number" style="float: right;">
+            <div class="sidebar">
+                <div class="filter">
+                    <h3>Цена, сум</h3>
+                    <label for="starting">От:</label><input type="number"><br>
+                    <label for="ending">До:</label><input type="number"><br>
+                    <button>Показать</button>
+                </div>
+                <div class="salescheck">
+                    <input type="checkbox"><label for="on sales">В продаже</label>
+                </div>
+                <div class="checkcredit">
+                    <h3>Кредит</h3>
+                    <input type="radio" name="credit"><label for="yes">Есть</label><br>
+                    <input type="radio"  name="credit"><label for="doesn't matter">Неважно</label>
+                </div>
+                <div class="brand">
+                    <h3>Бренд</h3>
+                    <input type="checkbox"><label for="Xiaomi">Xiaomi</label><br>
+                    <input type="checkbox"><label for="Samsung">Samsung</label><br>
+                    <input type="checkbox"><label for="Apple">Apple</label><br>
+                    <input type="checkbox"><label for="Realme">Realme</label>
+                </div>
+                <div class="ram">
+                    <h3>Объём оперативной памяти</h3>
+                    <input type="checkbox"><label for="1">1 GB</label><br>
+                    <input type="checkbox"><label for="2">2 GB</label><br>
+                    <input type="checkbox"><label for="3">3 GB</label><br>
+                    <input type="checkbox"><label for="4">4 GB</label><br>
+                    <input type="checkbox"><label for="6">6 GB</label><br>
+                    <input type="checkbox"><label for="8">8 GB</label><br>
+                    <input type="checkbox"><label for="12">12 GB</label><br>
+                    <input type="checkbox"><label for="16">16 GB</label>
+                </div>
+                <div class="storage">
+                    <h3>Объём встроенной памяти</h3>
+                    <input type="checkbox"><label for="16">16 GB</label><br><input type="checkbox"><label for="32">32 GB</label><br><input type="checkbox"><label for="64">64 GB</label><br><input type="checkbox"><label for="128">128 GB</label><br><input type="checkbox"><label for="256">256 GB</label><br><input type="checkbox"><label for="512">512 GB</label>
+                </div>
+                <div class="filter">
+                    <h3>Диагональ экрана, "</h3>
+                    <label for="starting">От</label><input type="number"><br><label for="ending">До</label><input type="number"><br><button>Показать</button>
+                </div>
+                <div class="filter">
+                    <h3>Ёмкость аккумулятора, мА*ч</h3>
+                    <label for="starting">От</label><input type="text"><br><label for="ending">До</label><input type="text"><br>
+                    <button>Показать</button>
+                </div>
             </div>
         </div>
     </main>
@@ -229,7 +272,7 @@
             <li><a href="">Продавайте на KATTABOZOR</a></li>
             <li><a href="">Справка</a></li>
             <li><a href="">Конкурс</a></li>
-            <li><a href="">Вакансии</a></li>
+            <li><a href="vacancies.html">Вакансии</a></li>
             <li><a href="privacy.html">Политика конфиденциальности</a></li>
             <li><a href="rules.html">Правила использования сервиса</a></li>
         </ul>
