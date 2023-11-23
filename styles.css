@@ -363,7 +363,7 @@ footer ul {
 .phoneslist > div {
     display: flex;
     flex-direction: row;
-    justify-content: safe;
+    justify-content: space-between;
     border-bottom: var(--border-gray);
     padding: 15px 30px;
 }
